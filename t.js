@@ -23,7 +23,7 @@ var _hmt = _hmt || []
 // umami
 // ;(function () {
 //   var umami2 = document.createElement('script')
-//   umami2.src = ENV.RESOURCE_URL + 'libs/s.js'
+//   umami2.src = ENV.RESOURCE_URL + 'libs/pb.js'
 //   umami2.setAttribute('data-website-id', '160308c9-7900-4b1d-a0b1-c3b25a9530f6')
 //   document.head.appendChild(umami2)
 // })()
@@ -36,7 +36,6 @@ var _hmt = _hmt || []
   umami2.setAttribute('data-website-id', 'e725f66a-1f63-4c53-a96b-ba073edecac8')
   umami2.setAttribute('data-host-url', 'https://um.typewords.cc/')
   umami2.setAttribute('data-do-not-track', false)
-  umami2.setAttribute('data-auto-track', true)
   document.head.appendChild(umami2)
 })()
 
