@@ -8,8 +8,8 @@ let RESOURCE_URL = 'https://libs.typewords.cc/'
     hashMode: true,
   }
   const script = document.createElement('script')
-  // script.src = RESOURCE_URL + `51.js`
-  script.src = 'https://sdk.51.la/js-sdk-pro.min.js'
+  script.src = RESOURCE_URL + `51.js`
+  // script.src = 'https://sdk.51.la/js-sdk-pro.min.js'
   document.head.appendChild(script)
 })()
 
